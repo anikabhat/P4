@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* DEVELOPER Anika Bhat, IS117-003, Fall 2024 */
+html {
+    background-color: lightcoral;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: lightcoral;
+    background-repeat: no-repeat;
+}
+a:focus, a:hover {
+    font-style: italic;
+}
+
+.navbar-nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-nav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+    position: absolute;
+    top:25%;
+    right:0;
+}
+.text-box {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    margin: 0 auto !important;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.text-box h5 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
+}
+.text-box p {
+    font-size: 20px;
+    color: black;
+}
+.image-container {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
